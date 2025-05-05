@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recipe List</title>
+    <!-- <link rel="stylesheet" href="/styles.css"> -->
+</head>
+<body>
+    <h1>Recipe List</h1>
+    <p>Here are some basic Mexican meal recipes.</p>
+
+    <h2>
+        <a href="/">Home</a> |
+        <a href="/recipes">Recipe List</a> |
+        <a href="/recipes/addrecipe">Add Recipe</a> 
+    </h2>
+  <table border="1">
+    <thead>
+        <tr>
+            <th>Recipe Name</th>
+            <th>Protein Type</th>
+            <th>Instructions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% recipes.forEach(recipe => { %>
+            <tr>
+                <td>
+                    <a href="/recipes/<%= recipe.recipe_id %>"><%= recipe.name %></a>
+
+                  </td>                  
+                <td><%= recipe.protein_type %></td>
+                <td><%= recipe.instructions %></td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+</html>
