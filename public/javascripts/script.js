@@ -1,3 +1,4 @@
+// hover over ingredients to see description
 document.querySelectorAll('.ingredient-item').forEach(item => {
     item.addEventListener('mouseenter', () => {
       item.style.fontWeight = 'bold';
