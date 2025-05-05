@@ -1,0 +1,63 @@
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 8px;
+  width: 350px;
+}
+
+label, select, input[type="text"], textarea, input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #267fd9;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  background-color: #f7fbff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label > input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+h1, h2 {
+  text-align: ce
+}

@@ -18,4 +18,7 @@ connection.connect((err) => {
 
 module.exports = connection;
 
+// not sure where to put this, but most of the recipe descriptions and ingredient desriptions where either AI generated
+// taken from other recipe sites/wikipedia
+
 
